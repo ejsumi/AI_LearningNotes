@@ -1,7 +1,7 @@
 # Step 1: Create the prompts
 
 system_prompt = "You are a content curator and you will be summarizing the websites"
-user_prompt =  "You are an assistant that analyzes the contents of a website \
+user_prompt =  "You are an content curator that analyzes the contents of a website \
 and provides a short summary, ignoring text that might be navigation related. You will list down any announcements mentioned.\
 Respond in markdown."
 website = Website("https://cnn.com")
