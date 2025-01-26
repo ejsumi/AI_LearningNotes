@@ -1,6 +1,5 @@
 #This code snippet utilizes OpenAI's gpt-4o-mini model to summarize a website. 
-#It begins by defining two prompts: a system prompt instructing the model to function as a content curator for website summarization, 
-#and a user prompt that provides more specific guidelines, such as disregarding navigation elements and presenting announcements in markdown format. 
+#It begins by defining two prompts: a system prompt instructing the model to function as a content curator for website summarization, with specific guidelines
 #Subsequently, it constructs a list of messages encompassing both the system and user prompts. 
 #Then, it employs the OpenAI API (not explicitly included in this snippet) to transmit these messages and obtain a response. 
 #Finally, the code extracts and displays the summarized content from the OpenAI response.
